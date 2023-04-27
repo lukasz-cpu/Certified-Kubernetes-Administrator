@@ -23,3 +23,7 @@ https://stackoverflow.com/questions/50966318/what-is-the-difference-between-noex
 
 k describe node node01 | grep -i taints
 
+5. How to add tolerations?
+
+https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/
+
