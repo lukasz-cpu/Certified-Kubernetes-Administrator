@@ -27,3 +27,7 @@ k describe node node01 | grep -i taints
 
 https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/
 
+6. How to remove taint?
+
+kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule-
+
