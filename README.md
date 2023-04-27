@@ -19,4 +19,7 @@ kubectl get all --selector env=prod,bu=finance,tier=frontend
 
 https://stackoverflow.com/questions/50966318/what-is-the-difference-between-noexecute-noschedule-prefernoschedule
 
+4. How to check if node is tainted? 
+
+k describe node node01 | grep -i taints
 
