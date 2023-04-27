@@ -15,4 +15,8 @@ If it possible to find resource using multiple selectors?
 
 kubectl get all --selector env=prod,bu=finance,tier=frontend
 
+3. What is the difference between NoExecute, NoSchedule, PreferNoSchedule?
+
+https://stackoverflow.com/questions/50966318/what-is-the-difference-between-noexecute-noschedule-prefernoschedule
+
 
