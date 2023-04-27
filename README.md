@@ -31,3 +31,6 @@ https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/
 
 kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule-
 
+7. How to check on which node is pod?
+
+kubectl get pods -o wide
